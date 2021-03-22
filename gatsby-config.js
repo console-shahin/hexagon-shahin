@@ -1,6 +1,7 @@
 const config = require('./src/config');
 
 module.exports = {
+  pathPrefix: '/hexagon-shahin',
   siteMetadata: {
     title: '😍😍 Shahin',
     description:
