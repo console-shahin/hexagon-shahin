@@ -2,6 +2,7 @@
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
+  "homepage": "https://console-shahin.github.io/hexagon-shahin/",
   "author": "Shahin <console.shahin@gamil.com>",
   "repository": {
     "type": "git",
@@ -17,7 +18,9 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "husky": {
     "hooks": {
