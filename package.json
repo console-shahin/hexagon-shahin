@@ -57,6 +57,7 @@
     "gatsby-transformer-sharp": "^2.3.7",
     "gh-pages": "^3.1.0",
     "lodash": "^4.17.19",
+    "nvm": "^0.0.4",
     "prismjs": "^1.17.1",
     "prop-types": "^15.7.2",
     "react": "^16.10.2",
